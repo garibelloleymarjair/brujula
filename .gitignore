@@ -1,0 +1,7 @@
+# Dependencias y artefactos locales
+**/node_modules/
+**/dist/
+**/out/
+*.log
+.DS_Store
+Thumbs.db

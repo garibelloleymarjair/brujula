@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brújula | Navegador web</title>
+  <link rel="icon" type="image/png" href="../assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="chrome">
+  <div class="tabs-row">
+    <div class="brand"><img class="brand-logo" src="../assets/icon.png" alt="Brújula"><b>Brújula</b></div>
+    <div id="tabs" class="tabs"></div>
+    <button id="newTab" class="round" title="Nueva pestaña">+</button>
+    <button id="menuBtn" class="round" title="Menú">⋮</button>
+  </div>
+  <div class="toolbar">
+    <button id="back" class="nav" title="Atrás">‹</button><button id="forward" class="nav" title="Adelante">›</button>
+    <button id="reload" class="nav" title="Recargar">↻</button><button id="homeBtn" class="nav" title="Inicio">⌂</button>
+    <div class="address-box"><span id="lock">●</span><input id="address" placeholder="Buscar o escribir una dirección" spellcheck="false" autocomplete="off"><button id="clearAddress" title="Limpiar">×</button><button id="bookmark" title="Guardar favorito">☆</button></div>
+    <button id="ai" class="ai">✨ Responder</button>
+  </div>
+  <div id="menu" class="menu hidden">
+    <button id="brujulaSearchMenu">🔎 Brújula</button><button id="history">🕘 Historial</button><button id="bookmarks">⭐ Favoritos</button><button id="downloads">📥 Descargas</button>
+    <button id="themes">🎨 Personalizar inicio</button><button id="findPage">🔎 Buscar en la página</button>
+    <button id="privacy">🛡️ Privacidad inteligente</button><button id="screenshot">📸 Captura de página</button><button id="print">🖨️ Imprimir</button><button id="devtools">🧰 Herramientas de desarrollador</button>
+    <button id="zoomOut">− Zoom</button><button id="zoomIn">＋ Zoom</button><button id="fullscreen">⛶ Pantalla completa</button><button id="clearData">🧹 Borrar datos</button><button id="about">ℹ️ Acerca de</button><button id="creatorBtn">ℹ️ Acerca de Brújula</button>
+  </div>
+</header>
+
+<main id="home" class="home">
+  <div class="home-wallpaper"></div><div class="home-shade"></div>
+  <section class="home-content">
+    <img class="hero-logo" src="../assets/icon.png" alt="Brújula">
+    <div class="eyebrow">BUSCA · INDEXA · INVESTIGA · NAVEGA</div>
+    <h1>Brújula <span>Web</span></h1>
+    <p class="subtitle">Brújula es el buscador propio de Brújula: consulta su índice, guarda páginas y hace crecer tu propia biblioteca web.</p>
+
+    <form id="search" class="search"><span class="search-icon">⌕</span><input id="homeInput" placeholder="Busca en Brújula o escribe una dirección…" autocomplete="off" spellcheck="false"><select id="homeEngine" title="Modo de búsqueda"><option value="brujula">Brújula · motor propio</option></select><button>Buscar</button></form>
+
+    <div class="research-actions">
+      <button id="researchBtn" class="research-primary">✨ Preguntar y obtener respuesta</button>
+      <button id="searchAllBtn" class="research-secondary">🕷️ Investigar con Brújula</button>
+    </div>
+
+    <div class="brujula-search-banner"><div><b>Brújula</b><small>Motor propio · índice local · descubrimiento público directo</small></div><button id="indexCurrent">📚 Añadir página al índice</button></div>
+
+    <div class="quick-section">
+      <div class="section-title"><b>Brújula y conocimiento</b><span>fuentes rápidas</span></div>
+      <div class="quick">
+        <button data-url="https://www.youtube.com"><span>▶</span>YouTube</button>
+        <button data-url="https://es.wikipedia.org"><span>W</span>Wikipedia</button>
+        <button data-url="https://github.com"><span>◆</span>GitHub</button>
+        <button data-url="https://developer.mozilla.org"><span>⌘</span>MDN</button>
+        <button data-url="https://stackoverflow.com"><span>S</span>Stack Overflow</button>
+        <button data-url="https://news.google.com"><span>N</span>Noticias</button>
+        <button data-url="https://gemini.google.com"><span>✦</span>Gemini</button>
+        <button data-url="https://www.perplexity.ai"><span>⌁</span>Perplexity</button>
+        <button data-url="https://chatgpt.com"><span>●</span>ChatGPT</button>
+        <button data-url="https://www.reddit.com"><span>R</span>Reddit</button>
+      </div>
+    </div>
+
+    <div class="home-actions"><button id="changeBg">🎨 Cambiar fondo</button><button id="shuffleBg">↻ Fondo automático</button></div>
+    <small class="credit">Brújula 3.5 • Brújula</small>
+  </section>
+</main>
+
+<input id="wallpaperFile" type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
+<div id="pageLoading" class="page-loading hidden"><span></span></div>
+
+<div id="researchHub" class="research-hub hidden">
+  <div class="research-head"><div><b>✨ Brújula responde</b><small>Sin API: usa servicios web reales dentro de Brújula. Elige el buscador para esta pregunta.</small></div><button id="researchClose">×</button></div>
+  <form id="researchForm" class="research-form"><input id="researchInput" placeholder="Escribe una pregunta o tema para investigar…" autocomplete="off"><select id="researchEngine" title="Motor para esta pregunta"></select><button>Preguntar</button></form>
+  <div class="research-tools">
+    <button id="researchPerplexity">✨ Perplexity — respuesta con fuentes</button>
+    <button id="researchGeminiWeb">✦ Gemini — web</button>
+    <button id="researchChatGPT">● ChatGPT — web</button>
+    <button id="researchSearch">🔎 Buscar en el motor elegido</button>
+    <button id="researchMany">🌐 Investigar en muchos sitios</button>
+  </div>
+  <div class="research-note">No hay claves, servidores de IA propios ni APIs en esta versión. La respuesta la genera el sitio web que abras dentro del navegador.</div>
+  <div id="researchResult" class="research-result">
+    <div class="research-empty"><h3>Una sola caja, toda la web</h3><p>Escribe algo arriba y elige cómo quieres investigar. Brújula puede abrir buscadores, Wikipedia y servicios de IA web en pestañas.</p></div>
+  </div>
+</div>
+
+
+<div id="creatorPanel" class="creator-panel hidden" role="dialog" aria-modal="true" aria-labelledby="creatorTitle">
+  <div class="creator-head">
+    <div><b id="creatorTitle">ℹ️ Acerca de Brújula</b><small>Información del navegador y buscador</small></div>
+    <button id="creatorClose" aria-label="Cerrar">×</button>
+  </div>
+  <div class="creator-profile">
+    <div class="creator-avatar">B</div>
+    <div>
+      <h2>Brújula</h2>
+      <p class="creator-role">Navegador · Buscador · Investigación web</p>
+    </div>
+  </div>
+  <div class="creator-grid">
+    <div class="creator-card"><span>🧭</span><div><small>Producto</small><strong>Brújula</strong></div></div>
+    <div class="creator-card"><span>🌐</span><div><small>Función</small><strong>Navegación y búsqueda web</strong></div></div>
+    <div class="creator-card creator-wide"><span>🔎</span><div><small>Buscadores disponibles</small><strong>Brave, Bing, Google, Ecosia, Yahoo y Qwant</strong></div></div>
+    <div class="creator-card"><span>🧩</span><div><small>Tecnología</small><strong>Electron + Chromium</strong></div></div>
+  </div>
+  <div class="creator-about">
+    <h3>Sobre Brújula</h3>
+    <p>Brújula reúne navegación web, buscadores, investigación, herramientas, personalización y accesos rápidos en una sola aplicación de escritorio.</p>
+  </div>
+  <div class="creator-credit">© 2026 Brújula · Navegador y buscador web</div>
+</div>
+<div id="panel" class="panel hidden"><div class="panel-head"><b id="panelTitle">Panel</b><button id="panelClose">×</button></div><div id="panelBody"></div></div>
+<div id="themePanel" class="theme-panel hidden"><div class="theme-head"><b>🎨 Personalizar inicio</b><button id="themeClose">×</button></div><div class="theme-section"><strong>Color de Brújula</strong><div class="swatches"><button class="swatch" data-theme="default">Brújula</button><button class="swatch blue" data-theme="blue">Azul</button><button class="swatch purple" data-theme="purple">Morado</button><button class="swatch green" data-theme="green">Verde</button><button class="swatch cyan" data-theme="cyan">Cian</button><button class="swatch pink" data-theme="pink">Rosa</button><button class="swatch red" data-theme="red">Rojo</button><button class="swatch orange" data-theme="orange">Naranja</button><button class="swatch gold" data-theme="gold">Dorado</button><button class="swatch light" data-theme="light">Claro</button></div></div><div class="theme-section"><strong>Fondo</strong><div class="wallpapers"><button data-bg="auto">✨ Automático diario</button><button data-bg="aurora">🌌 Aurora</button><button data-bg="ocean">🌊 Océano</button><button data-bg="sunset">🌅 Atardecer</button><button data-bg="cyber">⚡ Cyber</button><button data-bg="violet">🪐 Violeta</button><button data-bg="forest">🌲 Bosque</button><button id="uploadBg">🖼️ Elegir imagen del PC</button></div></div><button id="removeCustomBg" class="reset-theme">Quitar fondo personalizado</button><button id="resetTheme" class="reset-theme">Restaurar inicio Brújula</button></div>
+<div id="findBar" class="findbar hidden"><input id="findInput" placeholder="Buscar en esta página..." autocomplete="off"><button id="findPrev">↑</button><button id="findNext">↓</button><button id="findClose">×</button></div>
+<div id="toast" class="toast"></div>
+<script src="renderer.js"></script>
+</body></html>

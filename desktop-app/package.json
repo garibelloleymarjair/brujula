@@ -1,0 +1,49 @@
+{
+  "name": "brujula-browser",
+  "version": "4.0.2",
+  "description": "Brújula: navegador de escritorio y buscador web en español",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "dist": "electron-builder --win nsis",
+    "build": "npm run dist"
+  },
+  "devDependencies": {
+    "electron": "38.2.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.brujula.browser",
+    "productName": "Brújula",
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "assets/**/*",
+      "package.json",
+      "backgrounds/**/*",
+      "data/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "artifactName": "Brujula-Setup-${version}.${ext}",
+      "icon": "assets/icon.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Brújula",
+      "perMachine": false,
+      "allowElevation": false
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "artifactName": "Brujula-Setup-${version}.${ext}"
+  }
+}

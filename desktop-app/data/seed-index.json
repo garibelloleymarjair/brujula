@@ -1,0 +1,919 @@
+[
+  {
+    "id": "seed-internet",
+    "url": "brujula://knowledge/internet",
+    "title": "Qué es Internet",
+    "site": "Biblioteca Brújula",
+    "text": "Internet es una red mundial de redes que permite intercambiar información mediante protocolos como TCP/IP. Los sitios web usan HTTP o HTTPS para transportar recursos entre servidores y navegadores.",
+    "description": "Internet es una red mundial de redes que permite intercambiar información mediante protocolos como TCP/IP. Los sitios web usan HTTP o HTTPS para transportar recursos entre servidores y navegadores.",
+    "snippet": "Internet es una red mundial de redes que permite intercambiar información mediante protocolos como TCP/IP. Los sitios web usan HTTP o HTTPS para transportar recursos entre servidores y navegadores.",
+    "tags": [
+      "tecnologia",
+      "internet"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-web",
+    "url": "brujula://knowledge/web",
+    "title": "Cómo funciona la Web",
+    "site": "Biblioteca Brújula",
+    "text": "La Web es un servicio que funciona sobre Internet. Un navegador solicita documentos a servidores, recibe HTML, CSS, JavaScript y otros recursos, y construye una representación interactiva de la página.",
+    "description": "La Web es un servicio que funciona sobre Internet. Un navegador solicita documentos a servidores, recibe HTML, CSS, JavaScript y otros recursos, y construye una representación interactiva de la página.",
+    "snippet": "La Web es un servicio que funciona sobre Internet. Un navegador solicita documentos a servidores, recibe HTML, CSS, JavaScript y otros recursos, y construye una representación interactiva de la página.",
+    "tags": [
+      "tecnologia",
+      "web"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-html",
+    "url": "brujula://knowledge/html",
+    "title": "HTML",
+    "site": "Biblioteca Brújula",
+    "text": "HTML estructura el contenido de una página web mediante elementos como títulos, párrafos, enlaces, imágenes, listas y formularios. No es un lenguaje de programación; es un lenguaje de marcado.",
+    "description": "HTML estructura el contenido de una página web mediante elementos como títulos, párrafos, enlaces, imágenes, listas y formularios. No es un lenguaje de programación; es un lenguaje de marcado.",
+    "snippet": "HTML estructura el contenido de una página web mediante elementos como títulos, párrafos, enlaces, imágenes, listas y formularios. No es un lenguaje de programación; es un lenguaje de marcado.",
+    "tags": [
+      "programacion",
+      "web"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-css",
+    "url": "brujula://knowledge/css",
+    "title": "CSS",
+    "site": "Biblioteca Brújula",
+    "text": "CSS controla la presentación de páginas web: colores, fondos, tamaños, tipografías, espacios, animaciones y diseño responsive. Flexbox y Grid ayudan a organizar interfaces modernas.",
+    "description": "CSS controla la presentación de páginas web: colores, fondos, tamaños, tipografías, espacios, animaciones y diseño responsive. Flexbox y Grid ayudan a organizar interfaces modernas.",
+    "snippet": "CSS controla la presentación de páginas web: colores, fondos, tamaños, tipografías, espacios, animaciones y diseño responsive. Flexbox y Grid ayudan a organizar interfaces modernas.",
+    "tags": [
+      "programacion",
+      "web"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-javascript",
+    "url": "brujula://knowledge/javascript",
+    "title": "JavaScript",
+    "site": "Biblioteca Brújula",
+    "text": "JavaScript permite añadir lógica e interacción a una página: responder a eventos, modificar el DOM, validar datos, trabajar con archivos y comunicarse con servicios web.",
+    "description": "JavaScript permite añadir lógica e interacción a una página: responder a eventos, modificar el DOM, validar datos, trabajar con archivos y comunicarse con servicios web.",
+    "snippet": "JavaScript permite añadir lógica e interacción a una página: responder a eventos, modificar el DOM, validar datos, trabajar con archivos y comunicarse con servicios web.",
+    "tags": [
+      "programacion",
+      "web"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-python",
+    "url": "brujula://knowledge/python",
+    "title": "Python",
+    "site": "Biblioteca Brújula",
+    "text": "Python es un lenguaje de programación de propósito general usado en automatización, educación, ciencia, análisis de datos, inteligencia artificial y desarrollo de aplicaciones.",
+    "description": "Python es un lenguaje de programación de propósito general usado en automatización, educación, ciencia, análisis de datos, inteligencia artificial y desarrollo de aplicaciones.",
+    "snippet": "Python es un lenguaje de programación de propósito general usado en automatización, educación, ciencia, análisis de datos, inteligencia artificial y desarrollo de aplicaciones.",
+    "tags": [
+      "programacion",
+      "python"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-electron",
+    "url": "brujula://knowledge/electron",
+    "title": "Electron",
+    "site": "Biblioteca Brújula",
+    "text": "Electron permite construir aplicaciones de escritorio con tecnologías web. Combina un proceso principal de Node.js con interfaces renderizadas por Chromium y comunicación IPC.",
+    "description": "Electron permite construir aplicaciones de escritorio con tecnologías web. Combina un proceso principal de Node.js con interfaces renderizadas por Chromium y comunicación IPC.",
+    "snippet": "Electron permite construir aplicaciones de escritorio con tecnologías web. Combina un proceso principal de Node.js con interfaces renderizadas por Chromium y comunicación IPC.",
+    "tags": [
+      "programacion",
+      "electron"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-ia",
+    "url": "brujula://knowledge/ia",
+    "title": "Inteligencia artificial",
+    "site": "Biblioteca Brújula",
+    "text": "La inteligencia artificial reúne técnicas que permiten a sistemas informáticos reconocer patrones, clasificar, predecir, planificar o generar contenido a partir de datos y modelos.",
+    "description": "La inteligencia artificial reúne técnicas que permiten a sistemas informáticos reconocer patrones, clasificar, predecir, planificar o generar contenido a partir de datos y modelos.",
+    "snippet": "La inteligencia artificial reúne técnicas que permiten a sistemas informáticos reconocer patrones, clasificar, predecir, planificar o generar contenido a partir de datos y modelos.",
+    "tags": [
+      "ia",
+      "tecnologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-machine-learning",
+    "url": "brujula://knowledge/machine-learning",
+    "title": "Aprendizaje automático",
+    "site": "Biblioteca Brújula",
+    "text": "El aprendizaje automático permite que un modelo encuentre patrones en datos para realizar tareas como clasificación, predicción o agrupamiento. El rendimiento depende de datos, variables, algoritmo y evaluación.",
+    "description": "El aprendizaje automático permite que un modelo encuentre patrones en datos para realizar tareas como clasificación, predicción o agrupamiento. El rendimiento depende de datos, variables, algoritmo y evaluación.",
+    "snippet": "El aprendizaje automático permite que un modelo encuentre patrones en datos para realizar tareas como clasificación, predicción o agrupamiento. El rendimiento depende de datos, variables, algoritmo y evaluación.",
+    "tags": [
+      "ia",
+      "ciencia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-ciberseguridad",
+    "url": "brujula://knowledge/ciberseguridad",
+    "title": "Ciberseguridad",
+    "site": "Biblioteca Brújula",
+    "text": "La ciberseguridad busca proteger sistemas, redes y datos frente a accesos no autorizados, alteraciones, fraude y pérdida de disponibilidad. Son conceptos comunes el control de acceso, cifrado, MFA, actualizaciones y copias de seguridad.",
+    "description": "La ciberseguridad busca proteger sistemas, redes y datos frente a accesos no autorizados, alteraciones, fraude y pérdida de disponibilidad. Son conceptos comunes el control de acceso, cifrado, MFA, actualizaciones y copias de seguridad.",
+    "snippet": "La ciberseguridad busca proteger sistemas, redes y datos frente a accesos no autorizados, alteraciones, fraude y pérdida de disponibilidad. Son conceptos comunes el control de acceso, cifrado, MFA, actualizaciones y copias de seguridad.",
+    "tags": [
+      "seguridad",
+      "tecnologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-cia",
+    "url": "brujula://knowledge/cia",
+    "title": "Tríada CIA",
+    "site": "Biblioteca Brújula",
+    "text": "La tríada CIA resume tres objetivos de seguridad: confidencialidad, integridad y disponibilidad. Confidencialidad limita quién puede ver datos; integridad evita cambios indebidos; disponibilidad procura que los servicios estén accesibles cuando se necesitan.",
+    "description": "La tríada CIA resume tres objetivos de seguridad: confidencialidad, integridad y disponibilidad. Confidencialidad limita quién puede ver datos; integridad evita cambios indebidos; disponibilidad procura que los servicios estén accesibles cuando se necesitan.",
+    "snippet": "La tríada CIA resume tres objetivos de seguridad: confidencialidad, integridad y disponibilidad. Confidencialidad limita quién puede ver datos; integridad evita cambios indebidos; disponibilidad procura que los servicios estén accesibles cuando se necesitan.",
+    "tags": [
+      "seguridad"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-mfa",
+    "url": "brujula://knowledge/mfa",
+    "title": "Autenticación multifactor",
+    "site": "Biblioteca Brújula",
+    "text": "MFA combina dos o más factores de autenticación, por ejemplo algo que sabes, algo que tienes o una característica biométrica. Añade una barrera adicional cuando una contraseña es robada.",
+    "description": "MFA combina dos o más factores de autenticación, por ejemplo algo que sabes, algo que tienes o una característica biométrica. Añade una barrera adicional cuando una contraseña es robada.",
+    "snippet": "MFA combina dos o más factores de autenticación, por ejemplo algo que sabes, algo que tienes o una característica biométrica. Añade una barrera adicional cuando una contraseña es robada.",
+    "tags": [
+      "seguridad"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-cifrado",
+    "url": "brujula://knowledge/cifrado",
+    "title": "Cifrado",
+    "site": "Biblioteca Brújula",
+    "text": "El cifrado transforma información legible en datos protegidos mediante algoritmos y claves. Se usa para proteger datos almacenados y comunicaciones, especialmente cuando se combinan con HTTPS y buenas prácticas de gestión de claves.",
+    "description": "El cifrado transforma información legible en datos protegidos mediante algoritmos y claves. Se usa para proteger datos almacenados y comunicaciones, especialmente cuando se combinan con HTTPS y buenas prácticas de gestión de claves.",
+    "snippet": "El cifrado transforma información legible en datos protegidos mediante algoritmos y claves. Se usa para proteger datos almacenados y comunicaciones, especialmente cuando se combinan con HTTPS y buenas prácticas de gestión de claves.",
+    "tags": [
+      "seguridad"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-backup",
+    "url": "brujula://knowledge/backup",
+    "title": "Copia de seguridad",
+    "site": "Biblioteca Brújula",
+    "text": "Una copia de seguridad es una copia separada de datos que permite recuperar información después de errores, daños o incidentes. Una estrategia útil define qué se copia, con qué frecuencia, dónde se almacena y cómo se prueba la restauración.",
+    "description": "Una copia de seguridad es una copia separada de datos que permite recuperar información después de errores, daños o incidentes. Una estrategia útil define qué se copia, con qué frecuencia, dónde se almacena y cómo se prueba la restauración.",
+    "snippet": "Una copia de seguridad es una copia separada de datos que permite recuperar información después de errores, daños o incidentes. Una estrategia útil define qué se copia, con qué frecuencia, dónde se almacena y cómo se prueba la restauración.",
+    "tags": [
+      "seguridad",
+      "datos"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-ram",
+    "url": "brujula://knowledge/ram",
+    "title": "Memoria RAM",
+    "site": "Biblioteca Brújula",
+    "text": "La RAM almacena temporalmente datos y programas que el procesador está usando. Más RAM puede permitir mantener más tareas activas, pero el rendimiento también depende del procesador, almacenamiento y software.",
+    "description": "La RAM almacena temporalmente datos y programas que el procesador está usando. Más RAM puede permitir mantener más tareas activas, pero el rendimiento también depende del procesador, almacenamiento y software.",
+    "snippet": "La RAM almacena temporalmente datos y programas que el procesador está usando. Más RAM puede permitir mantener más tareas activas, pero el rendimiento también depende del procesador, almacenamiento y software.",
+    "tags": [
+      "hardware"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-cpu",
+    "url": "brujula://knowledge/cpu",
+    "title": "Procesador CPU",
+    "site": "Biblioteca Brújula",
+    "text": "La CPU ejecuta instrucciones y coordina operaciones de un sistema. Su rendimiento depende de arquitectura, núcleos, frecuencia, memoria caché, consumo y el tipo de trabajo realizado.",
+    "description": "La CPU ejecuta instrucciones y coordina operaciones de un sistema. Su rendimiento depende de arquitectura, núcleos, frecuencia, memoria caché, consumo y el tipo de trabajo realizado.",
+    "snippet": "La CPU ejecuta instrucciones y coordina operaciones de un sistema. Su rendimiento depende de arquitectura, núcleos, frecuencia, memoria caché, consumo y el tipo de trabajo realizado.",
+    "tags": [
+      "hardware"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-gpu",
+    "url": "brujula://knowledge/gpu",
+    "title": "GPU",
+    "site": "Biblioteca Brújula",
+    "text": "Una GPU está diseñada para ejecutar muchas operaciones en paralelo y es especialmente útil para gráficos, vídeo y ciertos cálculos científicos o de aprendizaje automático.",
+    "description": "Una GPU está diseñada para ejecutar muchas operaciones en paralelo y es especialmente útil para gráficos, vídeo y ciertos cálculos científicos o de aprendizaje automático.",
+    "snippet": "Una GPU está diseñada para ejecutar muchas operaciones en paralelo y es especialmente útil para gráficos, vídeo y ciertos cálculos científicos o de aprendizaje automático.",
+    "tags": [
+      "hardware"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-ssd",
+    "url": "brujula://knowledge/ssd",
+    "title": "SSD",
+    "site": "Biblioteca Brújula",
+    "text": "Un SSD usa memoria flash para almacenar datos y normalmente ofrece menor latencia y mayor velocidad de acceso que un disco duro mecánico. Su rendimiento varía según interfaz, controlador y carga.",
+    "description": "Un SSD usa memoria flash para almacenar datos y normalmente ofrece menor latencia y mayor velocidad de acceso que un disco duro mecánico. Su rendimiento varía según interfaz, controlador y carga.",
+    "snippet": "Un SSD usa memoria flash para almacenar datos y normalmente ofrece menor latencia y mayor velocidad de acceso que un disco duro mecánico. Su rendimiento varía según interfaz, controlador y carga.",
+    "tags": [
+      "hardware"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-windows",
+    "url": "brujula://knowledge/windows",
+    "title": "Windows",
+    "site": "Biblioteca Brújula",
+    "text": "Windows es una familia de sistemas operativos para computadores. Administra hardware, memoria, procesos, archivos, usuarios, dispositivos y aplicaciones.",
+    "description": "Windows es una familia de sistemas operativos para computadores. Administra hardware, memoria, procesos, archivos, usuarios, dispositivos y aplicaciones.",
+    "snippet": "Windows es una familia de sistemas operativos para computadores. Administra hardware, memoria, procesos, archivos, usuarios, dispositivos y aplicaciones.",
+    "tags": [
+      "sistemas"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-linux",
+    "url": "brujula://knowledge/linux",
+    "title": "Linux",
+    "site": "Biblioteca Brújula",
+    "text": "Linux es un núcleo de sistema operativo utilizado por distribuciones como Ubuntu, Fedora y Debian. Es común en servidores, desarrollo, supercomputación y dispositivos.",
+    "description": "Linux es un núcleo de sistema operativo utilizado por distribuciones como Ubuntu, Fedora y Debian. Es común en servidores, desarrollo, supercomputación y dispositivos.",
+    "snippet": "Linux es un núcleo de sistema operativo utilizado por distribuciones como Ubuntu, Fedora y Debian. Es común en servidores, desarrollo, supercomputación y dispositivos.",
+    "tags": [
+      "sistemas"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-android",
+    "url": "brujula://knowledge/android",
+    "title": "Android",
+    "site": "Biblioteca Brújula",
+    "text": "Android es un sistema operativo móvil basado en el núcleo Linux. Los dispositivos incluyen una plataforma de aplicaciones, servicios del sistema y capas de fabricante.",
+    "description": "Android es un sistema operativo móvil basado en el núcleo Linux. Los dispositivos incluyen una plataforma de aplicaciones, servicios del sistema y capas de fabricante.",
+    "snippet": "Android es un sistema operativo móvil basado en el núcleo Linux. Los dispositivos incluyen una plataforma de aplicaciones, servicios del sistema y capas de fabricante.",
+    "tags": [
+      "movil"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-colombia",
+    "url": "brujula://knowledge/colombia",
+    "title": "Colombia",
+    "site": "Biblioteca Brújula",
+    "text": "Colombia está ubicada en el extremo noroccidental de América del Sur. Tiene costas en el mar Caribe y el océano Pacífico, y una geografía que incluye Andes, llanos, selvas y zonas costeras.",
+    "description": "Colombia está ubicada en el extremo noroccidental de América del Sur. Tiene costas en el mar Caribe y el océano Pacífico, y una geografía que incluye Andes, llanos, selvas y zonas costeras.",
+    "snippet": "Colombia está ubicada en el extremo noroccidental de América del Sur. Tiene costas en el mar Caribe y el océano Pacífico, y una geografía que incluye Andes, llanos, selvas y zonas costeras.",
+    "tags": [
+      "geografia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-villavicencio",
+    "url": "brujula://knowledge/villavicencio",
+    "title": "Villavicencio",
+    "site": "Biblioteca Brújula",
+    "text": "Villavicencio es una ciudad colombiana y capital del departamento del Meta. Se encuentra en la transición entre la cordillera Oriental y los Llanos Orientales y es un centro importante de servicios de la región.",
+    "description": "Villavicencio es una ciudad colombiana y capital del departamento del Meta. Se encuentra en la transición entre la cordillera Oriental y los Llanos Orientales y es un centro importante de servicios de la región.",
+    "snippet": "Villavicencio es una ciudad colombiana y capital del departamento del Meta. Se encuentra en la transición entre la cordillera Oriental y los Llanos Orientales y es un centro importante de servicios de la región.",
+    "tags": [
+      "colombia",
+      "geografia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-porfia",
+    "url": "brujula://knowledge/porfia",
+    "title": "Ciudad Porfía",
+    "site": "Biblioteca Brújula",
+    "text": "Ciudad Porfía es un sector urbano de Villavicencio, Meta. En búsquedas locales conviene usar también el nombre de Villavicencio para ampliar contexto y fuentes.",
+    "description": "Ciudad Porfía es un sector urbano de Villavicencio, Meta. En búsquedas locales conviene usar también el nombre de Villavicencio para ampliar contexto y fuentes.",
+    "snippet": "Ciudad Porfía es un sector urbano de Villavicencio, Meta. En búsquedas locales conviene usar también el nombre de Villavicencio para ampliar contexto y fuentes.",
+    "tags": [
+      "colombia",
+      "local"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-sol",
+    "url": "brujula://knowledge/sol",
+    "title": "Sol",
+    "site": "Biblioteca Brújula",
+    "text": "El Sol es una estrella de la secuencia principal y la fuente dominante de energía para la Tierra. Su gravedad mantiene a los planetas del sistema solar en órbita.",
+    "description": "El Sol es una estrella de la secuencia principal y la fuente dominante de energía para la Tierra. Su gravedad mantiene a los planetas del sistema solar en órbita.",
+    "snippet": "El Sol es una estrella de la secuencia principal y la fuente dominante de energía para la Tierra. Su gravedad mantiene a los planetas del sistema solar en órbita.",
+    "tags": [
+      "ciencia",
+      "astronomia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-tierra",
+    "url": "brujula://knowledge/tierra",
+    "title": "Tierra",
+    "site": "Biblioteca Brújula",
+    "text": "La Tierra es el tercer planeta del sistema solar desde el Sol. Posee agua líquida en superficie y una atmósfera que permite la vida conocida.",
+    "description": "La Tierra es el tercer planeta del sistema solar desde el Sol. Posee agua líquida en superficie y una atmósfera que permite la vida conocida.",
+    "snippet": "La Tierra es el tercer planeta del sistema solar desde el Sol. Posee agua líquida en superficie y una atmósfera que permite la vida conocida.",
+    "tags": [
+      "ciencia",
+      "astronomia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-luna",
+    "url": "brujula://knowledge/luna",
+    "title": "Luna",
+    "site": "Biblioteca Brújula",
+    "text": "La Luna es el satélite natural de la Tierra. Su gravedad participa en las mareas y su ciclo de fases se debe a la geometría relativa entre el Sol, la Tierra y la Luna.",
+    "description": "La Luna es el satélite natural de la Tierra. Su gravedad participa en las mareas y su ciclo de fases se debe a la geometría relativa entre el Sol, la Tierra y la Luna.",
+    "snippet": "La Luna es el satélite natural de la Tierra. Su gravedad participa en las mareas y su ciclo de fases se debe a la geometría relativa entre el Sol, la Tierra y la Luna.",
+    "tags": [
+      "ciencia",
+      "astronomia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-fotosintesis",
+    "url": "brujula://knowledge/fotosintesis",
+    "title": "Fotosíntesis",
+    "site": "Biblioteca Brújula",
+    "text": "La fotosíntesis es el proceso mediante el cual plantas, algas y algunas bacterias convierten energía luminosa en energía química, utilizando dióxido de carbono y agua para producir compuestos orgánicos y liberar oxígeno en los organismos que realizan fotosíntesis oxigénica.",
+    "description": "La fotosíntesis es el proceso mediante el cual plantas, algas y algunas bacterias convierten energía luminosa en energía química, utilizando dióxido de carbono y agua para producir compuestos orgánicos y liberar oxígeno en los organismos que realizan fotosíntesis oxigénica.",
+    "snippet": "La fotosíntesis es el proceso mediante el cual plantas, algas y algunas bacterias convierten energía luminosa en energía química, utilizando dióxido de carbono y agua para producir compuestos orgánicos y liberar oxígeno en los organismos que realizan fotosíntesis oxigénica.",
+    "tags": [
+      "ciencia",
+      "biologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-celula",
+    "url": "brujula://knowledge/celula",
+    "title": "Célula",
+    "site": "Biblioteca Brújula",
+    "text": "La célula es la unidad básica de organización de los seres vivos. Las células eucariotas poseen estructuras internas como núcleo, mitocondrias y retículo endoplasmático; las procariotas no tienen núcleo delimitado por membrana.",
+    "description": "La célula es la unidad básica de organización de los seres vivos. Las células eucariotas poseen estructuras internas como núcleo, mitocondrias y retículo endoplasmático; las procariotas no tienen núcleo delimitado por membrana.",
+    "snippet": "La célula es la unidad básica de organización de los seres vivos. Las células eucariotas poseen estructuras internas como núcleo, mitocondrias y retículo endoplasmático; las procariotas no tienen núcleo delimitado por membrana.",
+    "tags": [
+      "biologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-adn",
+    "url": "brujula://knowledge/adn",
+    "title": "ADN",
+    "site": "Biblioteca Brújula",
+    "text": "El ADN es una molécula que almacena información genética. Está formado por nucleótidos y en los organismos celulares usa secuencias de bases para codificar instrucciones biológicas.",
+    "description": "El ADN es una molécula que almacena información genética. Está formado por nucleótidos y en los organismos celulares usa secuencias de bases para codificar instrucciones biológicas.",
+    "snippet": "El ADN es una molécula que almacena información genética. Está formado por nucleótidos y en los organismos celulares usa secuencias de bases para codificar instrucciones biológicas.",
+    "tags": [
+      "biologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-ecosistema",
+    "url": "brujula://knowledge/ecosistema",
+    "title": "Ecosistema",
+    "site": "Biblioteca Brújula",
+    "text": "Un ecosistema reúne organismos vivos y los componentes físicos de un ambiente, junto con las relaciones e intercambios de energía y materia que ocurren entre ellos.",
+    "description": "Un ecosistema reúne organismos vivos y los componentes físicos de un ambiente, junto con las relaciones e intercambios de energía y materia que ocurren entre ellos.",
+    "snippet": "Un ecosistema reúne organismos vivos y los componentes físicos de un ambiente, junto con las relaciones e intercambios de energía y materia que ocurren entre ellos.",
+    "tags": [
+      "biologia",
+      "ecologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-agua",
+    "url": "brujula://knowledge/agua",
+    "title": "Agua",
+    "site": "Biblioteca Brújula",
+    "text": "El agua es una sustancia esencial para la vida y se encuentra en la Tierra como sólido, líquido y gas. Su ciclo natural incluye evaporación, condensación, precipitación, infiltración y escorrentía.",
+    "description": "El agua es una sustancia esencial para la vida y se encuentra en la Tierra como sólido, líquido y gas. Su ciclo natural incluye evaporación, condensación, precipitación, infiltración y escorrentía.",
+    "snippet": "El agua es una sustancia esencial para la vida y se encuentra en la Tierra como sólido, líquido y gas. Su ciclo natural incluye evaporación, condensación, precipitación, infiltración y escorrentía.",
+    "tags": [
+      "ciencia",
+      "quimica"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-gravedad",
+    "url": "brujula://knowledge/gravedad",
+    "title": "Gravedad",
+    "site": "Biblioteca Brújula",
+    "text": "La gravedad es la interacción asociada a la masa y la energía. En la vida cotidiana explica la caída de objetos y, a escala astronómica, contribuye a mantener órbitas y estructuras celestes.",
+    "description": "La gravedad es la interacción asociada a la masa y la energía. En la vida cotidiana explica la caída de objetos y, a escala astronómica, contribuye a mantener órbitas y estructuras celestes.",
+    "snippet": "La gravedad es la interacción asociada a la masa y la energía. En la vida cotidiana explica la caída de objetos y, a escala astronómica, contribuye a mantener órbitas y estructuras celestes.",
+    "tags": [
+      "fisica",
+      "ciencia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-velocidad",
+    "url": "brujula://knowledge/velocidad",
+    "title": "Velocidad",
+    "site": "Biblioteca Brújula",
+    "text": "La velocidad describe cómo cambia la posición respecto al tiempo y tiene magnitud y dirección. En un movimiento rectilíneo uniforme puede expresarse como distancia dividida por tiempo.",
+    "description": "La velocidad describe cómo cambia la posición respecto al tiempo y tiene magnitud y dirección. En un movimiento rectilíneo uniforme puede expresarse como distancia dividida por tiempo.",
+    "snippet": "La velocidad describe cómo cambia la posición respecto al tiempo y tiene magnitud y dirección. En un movimiento rectilíneo uniforme puede expresarse como distancia dividida por tiempo.",
+    "tags": [
+      "fisica",
+      "matematicas"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-porcentaje",
+    "url": "brujula://knowledge/porcentaje",
+    "title": "Porcentaje",
+    "site": "Biblioteca Brújula",
+    "text": "Un porcentaje expresa una parte de cien. Para calcular x por ciento de una cantidad N se puede usar N·x/100.",
+    "description": "Un porcentaje expresa una parte de cien. Para calcular x por ciento de una cantidad N se puede usar N·x/100.",
+    "snippet": "Un porcentaje expresa una parte de cien. Para calcular x por ciento de una cantidad N se puede usar N·x/100.",
+    "tags": [
+      "matematicas"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-fraccion",
+    "url": "brujula://knowledge/fraccion",
+    "title": "Fracción",
+    "site": "Biblioteca Brújula",
+    "text": "Una fracción representa una parte de un todo o un cociente entre dos números. El numerador indica las partes consideradas y el denominador las partes iguales en que se divide la unidad.",
+    "description": "Una fracción representa una parte de un todo o un cociente entre dos números. El numerador indica las partes consideradas y el denominador las partes iguales en que se divide la unidad.",
+    "snippet": "Una fracción representa una parte de un todo o un cociente entre dos números. El numerador indica las partes consideradas y el denominador las partes iguales en que se divide la unidad.",
+    "tags": [
+      "matematicas"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-ecuacion",
+    "url": "brujula://knowledge/ecuacion",
+    "title": "Ecuación",
+    "site": "Biblioteca Brújula",
+    "text": "Una ecuación es una igualdad que contiene una o más incógnitas. Resolverla significa encontrar valores que hagan verdadera la igualdad.",
+    "description": "Una ecuación es una igualdad que contiene una o más incógnitas. Resolverla significa encontrar valores que hagan verdadera la igualdad.",
+    "snippet": "Una ecuación es una igualdad que contiene una o más incógnitas. Resolverla significa encontrar valores que hagan verdadera la igualdad.",
+    "tags": [
+      "matematicas"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-algoritmo",
+    "url": "brujula://knowledge/algoritmo",
+    "title": "Algoritmo",
+    "site": "Biblioteca Brújula",
+    "text": "Un algoritmo es una secuencia finita y ordenada de pasos para resolver un problema o realizar una tarea. En programación se traduce a instrucciones que un computador puede ejecutar.",
+    "description": "Un algoritmo es una secuencia finita y ordenada de pasos para resolver un problema o realizar una tarea. En programación se traduce a instrucciones que un computador puede ejecutar.",
+    "snippet": "Un algoritmo es una secuencia finita y ordenada de pasos para resolver un problema o realizar una tarea. En programación se traduce a instrucciones que un computador puede ejecutar.",
+    "tags": [
+      "programacion",
+      "matematicas"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-base-de-datos",
+    "url": "brujula://knowledge/base-de-datos",
+    "title": "Base de datos",
+    "site": "Biblioteca Brújula",
+    "text": "Una base de datos organiza información para permitir almacenamiento, consulta y actualización controlados. Los sistemas relacionales usan tablas y SQL, mientras que otros modelos pueden usar documentos, grafos o clave-valor.",
+    "description": "Una base de datos organiza información para permitir almacenamiento, consulta y actualización controlados. Los sistemas relacionales usan tablas y SQL, mientras que otros modelos pueden usar documentos, grafos o clave-valor.",
+    "snippet": "Una base de datos organiza información para permitir almacenamiento, consulta y actualización controlados. Los sistemas relacionales usan tablas y SQL, mientras que otros modelos pueden usar documentos, grafos o clave-valor.",
+    "tags": [
+      "datos",
+      "programacion"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-http",
+    "url": "brujula://knowledge/http",
+    "title": "HTTP y HTTPS",
+    "site": "Biblioteca Brújula",
+    "text": "HTTP es un protocolo usado para transferir recursos web. HTTPS añade cifrado mediante TLS para proteger la comunicación entre cliente y servidor y ayudar a verificar el servidor mediante certificados.",
+    "description": "HTTP es un protocolo usado para transferir recursos web. HTTPS añade cifrado mediante TLS para proteger la comunicación entre cliente y servidor y ayudar a verificar el servidor mediante certificados.",
+    "snippet": "HTTP es un protocolo usado para transferir recursos web. HTTPS añade cifrado mediante TLS para proteger la comunicación entre cliente y servidor y ayudar a verificar el servidor mediante certificados.",
+    "tags": [
+      "web",
+      "seguridad"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-dom",
+    "url": "brujula://knowledge/dom",
+    "title": "DOM",
+    "site": "Biblioteca Brújula",
+    "text": "El DOM es una representación estructurada del documento HTML que permite a JavaScript leer y modificar elementos, atributos y contenido de una página.",
+    "description": "El DOM es una representación estructurada del documento HTML que permite a JavaScript leer y modificar elementos, atributos y contenido de una página.",
+    "snippet": "El DOM es una representación estructurada del documento HTML que permite a JavaScript leer y modificar elementos, atributos y contenido de una página.",
+    "tags": [
+      "web",
+      "javascript"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-api",
+    "url": "brujula://knowledge/api",
+    "title": "API",
+    "site": "Biblioteca Brújula",
+    "text": "Una API es una interfaz que define cómo un software puede solicitar datos o funciones a otro componente. No todas las API requieren claves; algunas son públicas, otras requieren autenticación.",
+    "description": "Una API es una interfaz que define cómo un software puede solicitar datos o funciones a otro componente. No todas las API requieren claves; algunas son públicas, otras requieren autenticación.",
+    "snippet": "Una API es una interfaz que define cómo un software puede solicitar datos o funciones a otro componente. No todas las API requieren claves; algunas son públicas, otras requieren autenticación.",
+    "tags": [
+      "programacion"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-git",
+    "url": "brujula://knowledge/git",
+    "title": "Git",
+    "site": "Biblioteca Brújula",
+    "text": "Git es un sistema de control de versiones distribuido. Permite registrar cambios, crear ramas, comparar versiones y colaborar sin depender de una sola copia del proyecto.",
+    "description": "Git es un sistema de control de versiones distribuido. Permite registrar cambios, crear ramas, comparar versiones y colaborar sin depender de una sola copia del proyecto.",
+    "snippet": "Git es un sistema de control de versiones distribuido. Permite registrar cambios, crear ramas, comparar versiones y colaborar sin depender de una sola copia del proyecto.",
+    "tags": [
+      "programacion"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-github",
+    "url": "brujula://knowledge/github",
+    "title": "GitHub",
+    "site": "Biblioteca Brújula",
+    "text": "GitHub es una plataforma para alojar repositorios Git y colaborar mediante herramientas como issues, pull requests, acciones automatizadas y revisiones de código.",
+    "description": "GitHub es una plataforma para alojar repositorios Git y colaborar mediante herramientas como issues, pull requests, acciones automatizadas y revisiones de código.",
+    "snippet": "GitHub es una plataforma para alojar repositorios Git y colaborar mediante herramientas como issues, pull requests, acciones automatizadas y revisiones de código.",
+    "tags": [
+      "programacion"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-sql",
+    "url": "brujula://knowledge/sql",
+    "title": "SQL",
+    "site": "Biblioteca Brújula",
+    "text": "SQL es un lenguaje utilizado para consultar y modificar datos en sistemas de bases de datos relacionales. Sus operaciones incluyen SELECT, INSERT, UPDATE y DELETE.",
+    "description": "SQL es un lenguaje utilizado para consultar y modificar datos en sistemas de bases de datos relacionales. Sus operaciones incluyen SELECT, INSERT, UPDATE y DELETE.",
+    "snippet": "SQL es un lenguaje utilizado para consultar y modificar datos en sistemas de bases de datos relacionales. Sus operaciones incluyen SELECT, INSERT, UPDATE y DELETE.",
+    "tags": [
+      "datos",
+      "programacion"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-wifi",
+    "url": "brujula://knowledge/wifi",
+    "title": "Wi‑Fi",
+    "site": "Biblioteca Brújula",
+    "text": "Wi‑Fi es una tecnología de red inalámbrica basada en estándares IEEE 802.11. Permite conectar dispositivos a redes locales mediante radio y un punto de acceso.",
+    "description": "Wi‑Fi es una tecnología de red inalámbrica basada en estándares IEEE 802.11. Permite conectar dispositivos a redes locales mediante radio y un punto de acceso.",
+    "snippet": "Wi‑Fi es una tecnología de red inalámbrica basada en estándares IEEE 802.11. Permite conectar dispositivos a redes locales mediante radio y un punto de acceso.",
+    "tags": [
+      "redes"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-ip",
+    "url": "brujula://knowledge/ip",
+    "title": "Dirección IP",
+    "site": "Biblioteca Brújula",
+    "text": "Una dirección IP identifica una interfaz dentro de una red que usa Internet Protocol. IPv4 utiliza 32 bits y IPv6 utiliza 128 bits.",
+    "description": "Una dirección IP identifica una interfaz dentro de una red que usa Internet Protocol. IPv4 utiliza 32 bits y IPv6 utiliza 128 bits.",
+    "snippet": "Una dirección IP identifica una interfaz dentro de una red que usa Internet Protocol. IPv4 utiliza 32 bits y IPv6 utiliza 128 bits.",
+    "tags": [
+      "redes"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-dns",
+    "url": "brujula://knowledge/dns",
+    "title": "DNS",
+    "site": "Biblioteca Brújula",
+    "text": "DNS traduce nombres de dominio, como ejemplo.com, a direcciones IP y otros registros. Esto permite que las personas usen nombres fáciles de recordar sin memorizar direcciones numéricas.",
+    "description": "DNS traduce nombres de dominio, como ejemplo.com, a direcciones IP y otros registros. Esto permite que las personas usen nombres fáciles de recordar sin memorizar direcciones numéricas.",
+    "snippet": "DNS traduce nombres de dominio, como ejemplo.com, a direcciones IP y otros registros. Esto permite que las personas usen nombres fáciles de recordar sin memorizar direcciones numéricas.",
+    "tags": [
+      "redes"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-router",
+    "url": "brujula://knowledge/router",
+    "title": "Router",
+    "site": "Biblioteca Brújula",
+    "text": "Un router conecta redes diferentes y decide por qué interfaz reenviar paquetes. En una red doméstica normalmente conecta la LAN con el proveedor de Internet.",
+    "description": "Un router conecta redes diferentes y decide por qué interfaz reenviar paquetes. En una red doméstica normalmente conecta la LAN con el proveedor de Internet.",
+    "snippet": "Un router conecta redes diferentes y decide por qué interfaz reenviar paquetes. En una red doméstica normalmente conecta la LAN con el proveedor de Internet.",
+    "tags": [
+      "redes"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-phishing",
+    "url": "brujula://knowledge/phishing",
+    "title": "Phishing",
+    "site": "Biblioteca Brújula",
+    "text": "El phishing es una técnica de engaño que intenta conseguir información o provocar acciones mediante mensajes, páginas o identidades falsas. Señales de alerta incluyen urgencia injustificada, dominios extraños y solicitudes inesperadas de datos.",
+    "description": "El phishing es una técnica de engaño que intenta conseguir información o provocar acciones mediante mensajes, páginas o identidades falsas. Señales de alerta incluyen urgencia injustificada, dominios extraños y solicitudes inesperadas de datos.",
+    "snippet": "El phishing es una técnica de engaño que intenta conseguir información o provocar acciones mediante mensajes, páginas o identidades falsas. Señales de alerta incluyen urgencia injustificada, dominios extraños y solicitudes inesperadas de datos.",
+    "tags": [
+      "seguridad"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-malware",
+    "url": "brujula://knowledge/malware",
+    "title": "Malware",
+    "site": "Biblioteca Brújula",
+    "text": "Malware es un término general para software diseñado con comportamiento dañino o no autorizado, como robo de datos, alteración de sistemas o acceso persistente.",
+    "description": "Malware es un término general para software diseñado con comportamiento dañino o no autorizado, como robo de datos, alteración de sistemas o acceso persistente.",
+    "snippet": "Malware es un término general para software diseñado con comportamiento dañino o no autorizado, como robo de datos, alteración de sistemas o acceso persistente.",
+    "tags": [
+      "seguridad"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-firewall",
+    "url": "brujula://knowledge/firewall",
+    "title": "Firewall",
+    "site": "Biblioteca Brújula",
+    "text": "Un firewall controla tráfico de red según reglas definidas. Puede ayudar a reducir conexiones no deseadas y segmentar sistemas, aunque no reemplaza actualizaciones, autenticación y protección de endpoints.",
+    "description": "Un firewall controla tráfico de red según reglas definidas. Puede ayudar a reducir conexiones no deseadas y segmentar sistemas, aunque no reemplaza actualizaciones, autenticación y protección de endpoints.",
+    "snippet": "Un firewall controla tráfico de red según reglas definidas. Puede ayudar a reducir conexiones no deseadas y segmentar sistemas, aunque no reemplaza actualizaciones, autenticación y protección de endpoints.",
+    "tags": [
+      "seguridad",
+      "redes"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-backup-321",
+    "url": "brujula://knowledge/backup-321",
+    "title": "Regla de copias 3‑2‑1",
+    "site": "Biblioteca Brújula",
+    "text": "Una estrategia 3‑2‑1 propone mantener varias copias de los datos en medios diferentes y una copia fuera del equipo o ubicación principal. El objetivo es mejorar la capacidad de recuperación ante incidentes.",
+    "description": "Una estrategia 3‑2‑1 propone mantener varias copias de los datos en medios diferentes y una copia fuera del equipo o ubicación principal. El objetivo es mejorar la capacidad de recuperación ante incidentes.",
+    "snippet": "Una estrategia 3‑2‑1 propone mantener varias copias de los datos en medios diferentes y una copia fuera del equipo o ubicación principal. El objetivo es mejorar la capacidad de recuperación ante incidentes.",
+    "tags": [
+      "seguridad",
+      "datos"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-photoshop",
+    "url": "brujula://knowledge/photoshop",
+    "title": "Diseño gráfico",
+    "site": "Biblioteca Brújula",
+    "text": "El diseño gráfico combina composición, tipografía, color, jerarquía y elementos visuales para comunicar un mensaje.",
+    "description": "El diseño gráfico combina composición, tipografía, color, jerarquía y elementos visuales para comunicar un mensaje.",
+    "snippet": "El diseño gráfico combina composición, tipografía, color, jerarquía y elementos visuales para comunicar un mensaje.",
+    "tags": [
+      "diseño"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-color",
+    "url": "brujula://knowledge/color",
+    "title": "Color",
+    "site": "Biblioteca Brújula",
+    "text": "El color puede organizar jerarquías, atraer atención y crear identidad visual. En interfaces es útil mantener contraste suficiente y una paleta coherente.",
+    "description": "El color puede organizar jerarquías, atraer atención y crear identidad visual. En interfaces es útil mantener contraste suficiente y una paleta coherente.",
+    "snippet": "El color puede organizar jerarquías, atraer atención y crear identidad visual. En interfaces es útil mantener contraste suficiente y una paleta coherente.",
+    "tags": [
+      "diseño",
+      "web"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-responsive",
+    "url": "brujula://knowledge/responsive",
+    "title": "Diseño responsive",
+    "site": "Biblioteca Brújula",
+    "text": "Un diseño responsive adapta una interfaz a diferentes tamaños de pantalla mediante unidades flexibles, media queries, layouts como Grid/Flexbox e imágenes adaptables.",
+    "description": "Un diseño responsive adapta una interfaz a diferentes tamaños de pantalla mediante unidades flexibles, media queries, layouts como Grid/Flexbox e imágenes adaptables.",
+    "snippet": "Un diseño responsive adapta una interfaz a diferentes tamaños de pantalla mediante unidades flexibles, media queries, layouts como Grid/Flexbox e imágenes adaptables.",
+    "tags": [
+      "web",
+      "diseño"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-electron-app",
+    "url": "brujula://knowledge/electron-app",
+    "title": "Aplicación de escritorio",
+    "site": "Biblioteca Brújula",
+    "text": "Una aplicación de escritorio puede integrar acceso a archivos, ventanas, atajos y procesos locales. Electron facilita esto usando HTML, CSS y JavaScript con Chromium y Node.js.",
+    "description": "Una aplicación de escritorio puede integrar acceso a archivos, ventanas, atajos y procesos locales. Electron facilita esto usando HTML, CSS y JavaScript con Chromium y Node.js.",
+    "snippet": "Una aplicación de escritorio puede integrar acceso a archivos, ventanas, atajos y procesos locales. Electron facilita esto usando HTML, CSS y JavaScript con Chromium y Node.js.",
+    "tags": [
+      "programacion"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-navegador",
+    "url": "brujula://knowledge/navegador",
+    "title": "Navegador web",
+    "site": "Biblioteca Brújula",
+    "text": "Un navegador interpreta recursos web y ofrece navegación, pestañas, historial, favoritos, descargas, permisos y herramientas de seguridad.",
+    "description": "Un navegador interpreta recursos web y ofrece navegación, pestañas, historial, favoritos, descargas, permisos y herramientas de seguridad.",
+    "snippet": "Un navegador interpreta recursos web y ofrece navegación, pestañas, historial, favoritos, descargas, permisos y herramientas de seguridad.",
+    "tags": [
+      "web",
+      "tecnologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  },
+  {
+    "id": "seed-buscador",
+    "url": "brujula://knowledge/buscador",
+    "title": "Buscador",
+    "site": "Biblioteca Brújula",
+    "text": "Un buscador normalmente mantiene o consulta un índice de documentos, calcula relevancia según la consulta y presenta resultados. Brújula combina un índice local con descubrimiento directo de fuentes públicas y un ranking propio.",
+    "description": "Un buscador normalmente mantiene o consulta un índice de documentos, calcula relevancia según la consulta y presenta resultados. Brújula combina un índice local con descubrimiento directo de fuentes públicas y un ranking propio.",
+    "snippet": "Un buscador normalmente mantiene o consulta un índice de documentos, calcula relevancia según la consulta y presenta resultados. Brújula combina un índice local con descubrimiento directo de fuentes públicas y un ranking propio.",
+    "tags": [
+      "busqueda",
+      "tecnologia"
+    ],
+    "type": "web",
+    "updated": 0,
+    "source": "Biblioteca Brújula"
+  }
+]

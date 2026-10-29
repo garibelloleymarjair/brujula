@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brújula — Navegador web y buscador en español</title>
+  <meta name="description" content="Conoce Brújula, un navegador de escritorio en español con accesos rápidos a buscadores, herramientas web, investigación y una página de inicio personalizable.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#080d18">
+  <link rel="canonical" href="__BASE_URL__/">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/brujula-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brújula — Navegador web y buscador en español">
+  <meta property="og:description" content="Una sola página de inicio para explorar buscadores, herramientas web y servicios de conocimiento.">
+  <meta property="og:url" content="__BASE_URL__/">
+  <meta property="og:image" content="__BASE_URL__/assets/brujula-icon.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Brújula, inicio">
+      <img src="assets/brujula-icon.png" alt="" width="42" height="42">
+      <span>Brújula</span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#funciones">Funciones</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#proyecto">Proyecto</a>
+    </nav>
+    <a class="nav-cta" id="repoTop" href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver en GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> TU PUNTO DE PARTIDA PARA LA WEB</p>
+        <h1>Explora la web.<br><span>Encuentra tu rumbo.</span></h1>
+        <p class="lead">Brújula es un navegador de escritorio en español que reúne buscadores, servicios de conocimiento y herramientas web en una experiencia personalizable.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#funciones">Descubrir Brújula <span aria-hidden="true">→</span></a>
+          <a class="button secondary" id="repoHero" href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver el código</a>
+        </div>
+        <p class="small-note">Proyecto independiente. Los servicios externos conservan sus propios términos y políticas.</p>
+      </div>
+      <div class="hero-art" aria-label="Icono de Brújula">
+        <div class="glow"></div>
+        <img src="assets/brujula-icon.png" alt="Icono de Brújula: una B con una aguja de navegación" width="360" height="360">
+        <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+        <div class="float-tag"><span class="live-dot"></span> Navegación en un solo lugar</div>
+      </div>
+    </section>
+
+    <section class="stats wrap" aria-label="Características principales">
+      <div><strong>En español</strong><span>Interfaz fácil de entender</span></div>
+      <div><strong>Personalizable</strong><span>Fondos y accesos rápidos</span></div>
+      <div><strong>Multibuscador</strong><span>Elige servicios web conocidos</span></div>
+    </section>
+
+    <section class="section wrap" id="funciones">
+      <div class="section-heading"><p class="eyebrow">LO ESENCIAL, SIN COMPLICACIONES</p><h2>Todo empieza en Brújula.</h2><p>Una página de inicio pensada para organizar tu forma de explorar internet.</p></div>
+      <div class="feature-grid">
+        <article class="feature"><div class="feature-icon blue">⌕</div><h3>Buscadores a tu alcance</h3><p>Accede desde un mismo lugar a servicios de búsqueda como Brave, Bing, Google, Ecosia, Yahoo y Qwant.</p></article>
+        <article class="feature"><div class="feature-icon violet">✦</div><h3>Herramientas de conocimiento</h3><p>Abre sitios de documentación, enciclopedias y asistentes web para investigar y aprender.</p></article>
+        <article class="feature"><div class="feature-icon pink">◈</div><h3>Tu espacio, tu estilo</h3><p>Personaliza la página de inicio con fondos y accesos rápidos para tener a mano lo que más utilizas.</p></article>
+      </div>
+    </section>
+
+    <section class="how-section" id="como-funciona">
+      <div class="wrap how-grid">
+        <div><p class="eyebrow">CÓMO FUNCIONA</p><h2>Una interfaz.<br><span>Distintas formas de explorar.</span></h2></div>
+        <div class="how-copy"><p>Brújula es una aplicación de escritorio construida con Electron. Integra una interfaz propia y accesos a servicios web de terceros. Las búsquedas web y las respuestas de asistentes externos dependen del servicio que elijas.</p><p>La versión actual también incluye una función experimental de índice local; no debe confundirse con un índice global que rastree toda internet.</p></div>
+      </div>
+    </section>
+
+    <section class="section wrap project" id="proyecto">
+      <div class="project-card">
+        <div class="project-mark"><img src="assets/brujula-icon.png" alt="" width="78" height="78"></div>
+        <div class="project-copy"><p class="eyebrow">EL PROYECTO</p><h2>Conoce Brújula</h2><p>Una iniciativa independiente que busca reunir navegación, búsqueda y conocimiento en una experiencia sencilla. El repositorio contiene la página pública y el código de la aplicación de escritorio.</p></div>
+        <a class="button primary" id="repoBottom" href="https://github.com/" target="_blank" rel="noopener noreferrer">Abrir repositorio <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="disclaimer">Brújula no está afiliada ni respaldada por Google, Brave, Microsoft, Ecosia, Yahoo, Qwant ni los demás servicios mencionados. Sus nombres y marcas pertenecen a sus respectivos titulares.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="#inicio"><img src="assets/brujula-icon.png" alt="" width="30" height="30"><span>Brújula</span></a><span>Explora con rumbo.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+name: Publicar Brújula en GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      - name: Generar sitemap y URLs canónicas
+        env:
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          OWNER="${REPOSITORY%%/*}"
+          REPO="${REPOSITORY#*/}"
+          if [ "$REPO" = "$OWNER.github.io" ]; then
+            BASE_URL="https://${OWNER}.github.io"
+          else
+            BASE_URL="https://${OWNER}.github.io/${REPO}"
+          fi
+          export BASE_URL
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          import html
+          base = os.environ['BASE_URL'].rstrip('/')
+          site = Path('site')
+          for name in ('index.html', 'robots.txt', 'sitemap.xml'):
+              p = site / name
+              p.write_text(p.read_text(encoding='utf-8').replace('__BASE_URL__', base), encoding='utf-8')
+          loc = html.escape(base + '/', quote=False)
+          (site / 'sitemap.xml').write_text(
+              '<?xml version="1.0" encoding="UTF-8"?>\n'
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+              f'<url><loc>{loc}</loc></url></urlset>\n', encoding='utf-8')
+          print(f'URLs SEO preparadas para {base}')
+          PY
+      - name: Preparar artefacto de GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Publicar sitio
+        id: deployment
+        uses: actions/deploy-pages@v4
